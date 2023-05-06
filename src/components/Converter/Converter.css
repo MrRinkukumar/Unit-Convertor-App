@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Foldit:wght@300&family=Oswald:wght@200;400&display=swap");
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.conversion-calculator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 20px;
+  flex-direction: column;
+  width: 100%;
+}
+.form {
+  border: 1px solid gray;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+.conversion-type {
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  border: 1px solid gray;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.units-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.equal {
+  font-size: 40px;
+  text-align: center;
+  align-self: center;
+}
+.units {
+  border: 1px solid gray;
+  width: 40%;
+}
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+button {
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-self: center;
+  width: 100%;
+  cursor: pointer;
+  font-size: 15px;
+}
+.result {
+  padding: 15px;
+}
+input {
+  padding: 15px;
+  border: none;
+}
+
+select {
+  width: 100%;
+  padding: 5px;
+  background: #d7b4e76b;
+  border: none;
+}
+.result {
+  padding: 15px;
+  height: 100%;
+}
+input {
+  outline: none;
+}
+option {
+  background-color: white;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    max-width: 600px;
+    overflow-x: hidden;
+  }
+  .conversion-calculator {
+    width: fit-content;
+    margin: 10px;
+  }
+  .form {
+    width: fit-content;
+  }
+}
+h3 {
+  font-family: "Oswald", sans-serif;
+}

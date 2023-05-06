@@ -1,0 +1,52 @@
+.about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    padding: 30px;
+  }
+}
+
+.about h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.about p:last-of-type {
+  margin-bottom: 0;
+}
+
+.about p:first-of-type {
+  animation: fadeInUp 1s ease-out;
+}
+
+.about p:nth-of-type(2) {
+  animation: fadeInUp 1.2s ease-out;
+}
+
+.about p:last-of-type {
+  animation: fadeInUp 1.4s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
