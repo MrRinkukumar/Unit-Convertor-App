@@ -1,41 +1,25 @@
 {
-    "name": "Unit Converter App",
+    "short_name": "Unit Converter",
+    "name": "Unit Converter - Convert Units Easily and Accurately",
     "icons": [
-        {
-            "src": "./logo.JPG",
-            "sizes": "36x36",
-            "type": "image\/JPG",
-            "density": "0.75"
-        },
-        {
-            "src": "./logo.JPG",
-            "sizes": "48x48",
-            "type": "image\/JPG",
-            "density": "1.0"
-        },
-        {
-            "src": "./logo.JPG",
-            "sizes": "72x72",
-            "type": "image\/JPG",
-            "density": "1.5"
-        },
-        {
-            "src": "./logo.JPG",
-            "sizes": "96x96",
-            "type": "image\/JPG",
-            "density": "2.0"
-        },
-        {
-            "src": "./logo.JPG",
-            "sizes": "144x144",
-            "type": "image\/JPG",
-            "density": "3.0"
-        },
-        {
-            "src": "./logo.JPG",
-            "sizes": "192x192",
-            "type": "image\/JPG",
-            "density": "4.0"
-        }
-    ]
-}
+      {
+        "src": "favicon.ico",
+        "sizes": "64x64 32x32 24x24 16x16",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "android-chrome-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "android-chrome-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+  }
